@@ -1,5 +1,8 @@
 # TOPSIS Method
 Another sh❤️tty project
+- PHP x JS Topsis
+- Could be used on any use cases web that using topsis as a method
+
 
 Bro, Kalau masih beneran butuh, silahkan komen di "Issues", nanti aku ajarin dikit caranya.
 buat instalasinya cuma copas ini repo terus paste ke xampp mu, samain username/password di folder "database/dbconfig.php"
