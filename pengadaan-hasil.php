@@ -348,6 +348,5 @@ $result = mysqli_query($connection, $query);
 
 <?php
 include('includes/scripts.php');
-include('includes/scripts.php');
 include('includes/footer.php');
 ?>
