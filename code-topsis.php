@@ -1,5 +1,4 @@
 <?php
-include_once('security.php');
 include_once('database/dbconfig.php');
 
 ///////////////////BUAT TAMBAH KRITERIA BARU///////////////////////////////
