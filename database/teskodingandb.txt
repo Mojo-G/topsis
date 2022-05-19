@@ -1,0 +1,32 @@
+Kalau bikin view (gabungan tabel)
+CREATE VIEW view_name AS
+
+SELECT nama_alat,
+MAX(timestamp) as timestamp,
+rfid_uid,
+nama_alat,
+deskripsi,
+penanggung_jawab,
+status_asset,
+peminjam,
+COUNT(*) jumlah
+FROM tb_scanner1_assetbarang 
+GROUP BY nama_alat  
+ORDER BY `timestamp` DESC
+
+
+
+CREATE VIEW view_name AS
+
+SELECT nama_anak,
+rfid_uid,
+id_pengenal,
+nama_ibu,
+penanggung_jawab_bayi,
+alamat,
+status,
+MAX(timestamp) as timestamp,
+COUNT(*) jumlah
+FROM tb_scanner1_assetbayi 
+GROUP BY nama_anak 
+ORDER BY timestamp DESC
